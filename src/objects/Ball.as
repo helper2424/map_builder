@@ -109,7 +109,7 @@ package objects
 					img.addChild(ldr);
 				}
 			});
-			loader.load(new URLRequest("http://dev.voltapps.ru:8081/ball/" + ball_id));
+			//loader.load(new URLRequest("http://dev.voltapps.ru:8081/ball/" + ball_id));
 		}
 		
 		public function UpdateData(data:Object,draw:Boolean=true):void

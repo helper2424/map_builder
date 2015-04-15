@@ -9,22 +9,17 @@ package objects
 	public class PlayerSpot extends MapObject
 	{
 		public var img:Sprite;
-		public var special:Boolean;
+		public var type:uint;
 		
 		public function PlayerSpot(data:Object) 
 		{
-			this.x = Main.ConvertToPixels(data.x);
-			this.y = Main.OldY(Main.ConvertToPixels(data.y));
-			this.team = data.team;
-			this.special = data.special;
-			this.color = team > 0 ? MapObject.team_colors[team] : 0x888888;
 			img = new Sprite;
 			img.name = "DRAG";
 			addChild(img);
-			
+
+			UpdateData(data, true);
+
 			this.buttonMode = true;
-			
-			Draw();
 		}
 		
 		override public function Update(s:Sprite, nx:int, ny:int,snap_axis:int,snap_grid:int):void
@@ -55,7 +50,7 @@ package objects
 			data.y = Main.ConvertFromPixels(Main.NewY(y));
 
 			data.team = team;
-			data.special = special;
+			data.type = type;
 			return data;
 		}
 		
@@ -66,7 +61,13 @@ package objects
 			y = Main.OldY(Main.ConvertToPixels(data.y));
 
 			team = data.team;
-			special = data.special;
+
+			if(!data.type)
+				type = 0;
+			else
+				type = data.type;
+			this.color = team > 0 ? MapObject.team_colors[team] : 0x888888;
+
 			if (draw) Draw();
 		}
 		

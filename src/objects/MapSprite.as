@@ -32,7 +32,7 @@ package objects
 			img.mouseChildren = false;
 			addChild(img);
 			
-			Load(data.url);
+			//Load(data.url);
 
 			buttonMode = true;
 		}

@@ -308,7 +308,6 @@ package
 				trace("Load player start position for team" + pos[i].team);
 				var p:PlayerSpot = new PlayerSpot(pos[i]);
 				layers['shapes'].addChild(p);
-				p.Draw();
 			}
 		}
 		
@@ -401,7 +400,7 @@ package
 			else
 			if (e.target.parent is PlayerSpot)
 			{
-				return { target: e.target.parent, settings:(e.target.parent as PlayerSpot).Data(), name: "Позиция игрока" };
+				return { target: e.target.parent, settings:(e.target.parent as PlayerSpot).Data(), name: "Позиция игрока, type: 0 - Обычная позиция, 1 - позиция при разводе мяча, 2 - позиция новго игрока при заходе в матч" };
 			}
 			else
 			if (e.target.parent is Ball)

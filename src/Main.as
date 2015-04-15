@@ -1,5 +1,7 @@
 package {
-	import flashx.textLayout.formats.Float;
+import flash.system.Security;
+
+import flashx.textLayout.formats.Float;
 	import flash.display.FrameLabel;
 	import flash.display.Sprite;
 	import flash.events.ContextMenuEvent;
@@ -81,6 +83,7 @@ package {
 		}
 
 		private function init(e : Event = null) : void {
+			Security.allowDomain("*");
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			// entry point
 
@@ -296,7 +299,6 @@ package {
 					dy -= by - map.y;
 				}
 
-				// map.Shift(dx,dy);
 			});
 
 			stage.addEventListener(KeyboardEvent.KEY_DOWN, function(e : KeyboardEvent) : void {
@@ -309,9 +311,25 @@ package {
 					saveFileDialog();
 				} else if (e.keyCode == Keyboard.E) {
 					openSettings = true;
-				} else {
-					map.KeyDown(e.keyCode, e.shiftKey);
+				} else if(e.keyCode == Keyboard.UP)
+				{
+					map.y += 15;
 					checkMapView();
+				} else if(e.keyCode == Keyboard.DOWN)
+				{
+					map.y -= 15;
+					checkMapView();
+				} else if(e.keyCode == Keyboard.LEFT)
+				{
+					map.x += 15;
+					checkMapView();
+				} else if(e.keyCode == Keyboard.RIGHT)
+				{
+					map.x -= 15;
+					checkMapView();
+				} else{
+						map.KeyDown(e.keyCode, e.shiftKey);
+						checkMapView();
 				}
 			});
 
