@@ -157,7 +157,7 @@ package
 					trace("Create gate");
  
 					var g:Gate = new Gate( { x1:Main.ConvertFromPixels(pt.x), x2:Main.ConvertFromPixels(pt.x), y1:Main.ConvertFromPixels(Main.NewY(pt.y)), y2:Main.ConvertFromPixels(Main.NewY(pt.y)),
-											team: last_team, r1:0.4, r2:0.4 });
+											team: last_team, r1:0.4, r2:0.4, x1_rod:Main.ConvertFromPixels(pt.x)-10, y1_rod:Main.ConvertFromPixels(Main.NewY(pt.y))+10, x2_rod:Main.ConvertFromPixels(pt.x)-10, y2_rod:Main.ConvertFromPixels(Main.NewY(pt.y))-10});
 					layers['shapes'].addChild(g);
 
 					s = g.spr_r2;
