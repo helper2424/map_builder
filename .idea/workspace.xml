@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8909d2a1-a236-4317-99d7-b7c186f7bd25" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MapBuilder.swf" afterPath="$PROJECT_DIR$/bin/MapBuilder.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/objects/Gate.as" afterPath="$PROJECT_DIR$/src/objects/Gate.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MapField.as" afterPath="$PROJECT_DIR$/src/MapField.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="map_builder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,21 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapField.as" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MapField.as" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MapField.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2671" max-vertical-offset="13950">
-              <caret line="207" column="0" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3313433" vertical-offset="13434" max-vertical-offset="14055">
+              <caret line="925" column="0" selection-start-line="925" selection-start-column="0" selection-end-line="925" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gate.as" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gate.as" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/objects/Gate.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63903743" vertical-offset="2161" max-vertical-offset="3960">
-              <caret line="160" column="21" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1111" max-vertical-offset="3960">
+              <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
               <folding>
                 <element signature="e#19#47#0" expanded="true" />
               </folding>
@@ -97,7 +95,7 @@
       <file leaf-file-name="MapObject.as" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/objects/MapObject.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1579" max-vertical-offset="1905">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="1905">
               <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding />
             </state>
@@ -107,7 +105,7 @@
       <file leaf-file-name="MapSprite.as" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/objects/MapSprite.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1515">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1141" max-vertical-offset="1515">
               <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding />
             </state>
@@ -148,8 +146,8 @@
         <option value="$PROJECT_DIR$/src/Main.as" />
         <option value="$PROJECT_DIR$/src/objects/PlayerSpot.as" />
         <option value="$PROJECT_DIR$/src/objects/Line.as" />
-        <option value="$PROJECT_DIR$/src/MapField.as" />
         <option value="$PROJECT_DIR$/src/objects/Gate.as" />
+        <option value="$PROJECT_DIR$/src/MapField.as" />
       </list>
     </option>
   </component>
@@ -596,12 +594,12 @@
       <workItem from="1435735618850" duration="157000" />
       <workItem from="1435820614500" duration="13000" />
       <workItem from="1435834826474" duration="3442000" />
-      <workItem from="1436187773530" duration="819000" />
+      <workItem from="1436187773530" duration="2548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16014000" />
+    <option name="totallyTimeSpent" value="17743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -654,7 +652,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1032,6 +1030,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1006" max-vertical-offset="9465">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="e#10#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/Line.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="736" max-vertical-offset="4845">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="72" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/Gate.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1111" max-vertical-offset="3960">
+          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+          <folding>
+            <element signature="e#19#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/objects/PlayerSpot.as">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="1200">
@@ -1048,16 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1006" max-vertical-offset="9465">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#10#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/objects/MapObject.as">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1579" max-vertical-offset="1905">
@@ -1068,27 +1084,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MapField.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2671" max-vertical-offset="13950">
-          <caret line="207" column="0" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3313433" vertical-offset="13434" max-vertical-offset="14055">
+          <caret line="925" column="0" selection-start-line="925" selection-start-column="0" selection-end-line="925" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/Line.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="736" max-vertical-offset="4845">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="72" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/objects/Gate.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63903743" vertical-offset="2161" max-vertical-offset="3960">
-          <caret line="160" column="21" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
-          <folding>
-            <element signature="e#19#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

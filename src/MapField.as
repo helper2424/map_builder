@@ -58,7 +58,7 @@ package
 		private var layers:Object = new Object;
 		private var creating:String = null;
 		private var last_team:int = 1;
-		
+
 		public function MapField() 
 		{
  
@@ -700,7 +700,7 @@ package
 			bg_sound_url = obj.bg_sound_url;
 			markup_url = obj.markup_url;
 			minimap = obj.minimap;
-			
+
 			if (obj.friction) friction = obj.friction;
 			if (!MUtils.isNullOrEmpty(bg_sound_url)) loadBgSound(bg_sound_url);
 			if (!MUtils.isNullOrEmpty(texture_url)) loadFieldTexture(texture_url);
@@ -923,11 +923,18 @@ package
 			if(data.start_positions)
 				for (var i:int = 0; i < data.start_positions.length; ++i)
 					teams[data.start_positions[i].team]=true;
-			var team_count:int = 1;
-			for (var t in teams) team_count++;
+			var team_count:int = 0;
+
+			for(var t in teams)
+				team_count++;
+
+			team_count--;
+
+			if(team_count < 0)
+				team_count = 0;
  
 			data["type"] = type;
-			data["team_count"] = team_count;
+			data["max_team"] = team_count;
 			data["width"] = Main.ConvertFromPixels(mapWidth);
 			data["height"] = Main.ConvertFromPixels(mapHeight);
 			data["texture_url"] = texture_url;
